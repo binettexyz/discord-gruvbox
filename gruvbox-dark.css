@@ -17,7 +17,6 @@
     --interactive-normal: #d5c4a1;
     --interactive-muted: #a89984;
     --interactive-active: #fbf1c7;
-    --webkit-scrollbar-x: #3c3836;
 }
 
 ::-webkit-scrollbar,
@@ -31,7 +30,7 @@
     width:5px !important;
 }
 ::-webkit-scrollbar-thumb{
-    background: var(--text-muted) !important;
+    background: var(--background-secondary) !important;
     width:5px !important;
     border:none !important;
     border-radius: 0px !important;
@@ -71,4 +70,12 @@ div[class^="friendsTable"] {
 
 [class^="input"] {
     background-color: var(--background-primary);
+}
+
+div[class^="uploadModal"] > div[class^="inner"], div[class^="inner"] > div[class^="uploadModal"], div[class^="uploadModal"] > div[class^="footer"] {
+    background-color: var(--background-primary);
+}
+
+[class^="username"]:not([style]){
+    color: var(--text-normal)
 }
