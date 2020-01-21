@@ -3,8 +3,11 @@ This is a theme, based on the [Vim theme](https://github.com/morhetz/gruvbox), n
 
 ## Installation
 Use the relevant installation guides for your modding platform.
+
     - [BeautifulDiscord](https://github.com/DTinker/discord-resources/wiki/Installing-Modifications#beautifuldiscord)
+    
     - [BetterDiscord](https://imgur.com/H7VyWea)
+    
     - [DiscordInjections](https://github.com/DiscordInjections/DiscordInjections/wiki/Theme-Tutorial)
 
 ## Screenshots
