@@ -13,8 +13,6 @@ Use the relevant installation guides for your modding platform.
 ## Screenshots
 [coming soon]
 
-*I'm sorry if you're in the screenshots, I can't blur you out*
-
 ## License
 This project is licensed under the MIT License.
 ```
