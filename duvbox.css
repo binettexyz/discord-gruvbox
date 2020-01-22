@@ -1,0 +1,102 @@
+/**
+    Duvbox - adapted for Discord
+    
+    Made by CircuitRCAY (Circuit#2816)
+
+    Excuse the following shitcode.
+*/
+
+.theme-dark {
+    --background-primary: #282828;
+    --background-secondary: #3c3836;
+    --background-tertiary: #504945;
+    --background-accent: #32302f;
+    --text-normal: #ebdbb2;
+    --text-muted: #bdae93;
+    --text-link: #458588;
+    --interactive-normal: #d5c4a1;
+    --interactive-muted: #a89984;
+    --interactive-active: #fbf1c7;
+}
+
+.theme-light {
+    --background-primary: #fbf1c7;
+    --background-secondary: #ebdbb2;
+    --background-tertiary: #d5c4a1;
+    --background-accent: #f2e5bc;
+    --text-normal: #3c3836;
+    --text-muted: #504945;
+    --text-link: #076678;
+    --interactive-normal: #665c54;
+    --interactive-muted: #928374;
+    --interactive-active: #7c6f64;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    width:5px !important;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--background-secondary) !important;
+    width:5px !important;
+    border:none !important;
+    border-radius: 0px !important;
+}
+
+div[class^="scrollableContainer"] {
+    background-color: var(--background-secondary);
+}
+
+div[class^="name"] > span {
+    color: var(--text-normal);
+}
+
+h1, h2, h3[role="button"] {
+    color: var(--text-normal);
+}
+
+div[class^="panels"] > div[class^="container"] {
+    background-color: var(--background-secondary);
+}
+
+div[class^="panels"] > div[class^="container"] > div[class^="nameTag"] > * {
+    color: var(--text-normal);
+}
+
+div[class^="size14"] {
+    color: var(--text-normal);
+}
+
+div[class^="topic"] {
+    color: var(--text-muted);
+}
+
+div[class^="friendsTable"] {
+    background-color: var(--background-primary);
+}
+
+[class^="input"] {
+    background-color: var(--background-primary);
+}
+
+div[class^="uploadModal"] > div[class^="inner"], div[class^="inner"] > div[class^="uploadModal"], div[class^="uploadModal"] > div[class^="footer"] {
+    background-color: var(--background-primary);
+}
+
+[class^="username"]:not([style]){
+    color: var(--text-normal)
+}
+
+span[class^="wrapperHover"][role="button"] {
+    color: var(--text-link)
+}
+
+[class^="autocompleteInner"] {
+    background-color: var(--background-secondary)
+}
