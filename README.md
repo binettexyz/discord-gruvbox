@@ -4,14 +4,33 @@ This is a theme, based on the [Vim theme](https://github.com/morhetz/gruvbox), n
 ## Installation
 Use the relevant installation guides for your modding platform.
 
-    - [BeautifulDiscord](https://github.com/DTinker/discord-resources/wiki/Installing-Modifications#beautifuldiscord)
+* [BeautifulDiscord](https://github.com/DTinker/discord-resources/wiki/Installing-Modifications#beautifuldiscord)
     
-    - [BetterDiscord](https://imgur.com/H7VyWea)
+* [BetterDiscord](https://imgur.com/H7VyWea)
     
-    - [DiscordInjections](https://github.com/DiscordInjections/DiscordInjections/wiki/Theme-Tutorial)
+* [DiscordInjections](https://github.com/DiscordInjections/DiscordInjections/wiki/Theme-Tutorial)
+
+* [Powercord](https://github.com/CircuitCodes/Duvbox/wiki/Installing-For-Powercord)
 
 ## Screenshots
-[coming soon]
+### Dark
+
+*Friends list*
+
+![Friends List](https://tik-tok.is-bad.com/5Azd32P.png)
+
+*Chat*
+![Chat](https://tik-tok.is-bad.com/9JPL65k.png)
+
+### Light
+*Friends list*
+![Friends List](https://tik-tok.is-bad.com/oypbA8r.png)
+
+*Chat*
+![Chat](https://tik-tok.is-bad.com/2dYodWa.png)
+
+**Sorry if you're in the screenshot, I cannot edit it at this time.*
+
 
 ## License
 This project is licensed under the MIT License.
