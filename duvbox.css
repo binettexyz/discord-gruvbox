@@ -40,7 +40,7 @@
     border: none !important;
     width:5px !important;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background: var(--background-secondary) !important;
     width:5px !important;
     border:none !important;
@@ -111,9 +111,32 @@ a[class^="wrapper"] {
     color: var(--text-normal)
 }
 
-
 div[role="dialog"] {
     color: var(--background-primary)
+}
+
+div[class*="activityPanel"] {
+    background-color: var(--background-secondary)
+}
+
+div[class^="text"] {
+    color: var(--text-normal)
+}
+
+[class^="item"] {
+    background-color: var(--background-secondary)
+}
+
+[class^="userInfoViewing"] {
+    background-color: var(--background-secondary);
+}
+
+[class*="lookFilled"][class*="colorBrand"] {
+    background-color: var(--text-link);
+}
+
+div[class*="tooltip"] {
+    background-color: var(--background-secondary);
 }
 
 /** Credit to AlexFlipnote#0001 */
