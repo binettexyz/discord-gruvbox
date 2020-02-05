@@ -4,6 +4,10 @@
     Made by CircuitRCAY (Circuit#2816)
 */
 
+/** Import plugins from this line below. */
+
+/** End plugin section */
+
 .theme-dark {
     --background-primary: #282828;
     --background-secondary: #3c3836;
@@ -138,6 +142,47 @@ div[class^="text"] {
 div[class*="tooltip"] {
     background-color: var(--background-secondary);
 }
+div[class*="contextMenu"] {
+    background-color: var(--background-secondary);
+}
+
+div[class*="header"] {
+    background-color: var(--background-secondary)
+}
+
+div[class*="details"] {
+    color: var(--text-normal);
+}
+
+div[class*="headerTextNormal"] {
+    background-color: var(--background-secondary);
+}
+
+span {
+    color: var(--text-normal)
+}
+
+span[class*="headerName"] {
+    color: var(--text-normal)
+}
+
+div[class*="userPopout"] > div[class*="footer"] {
+    background-color: var(--background-primary)
+}
+
+div[class*="scrollerWrap"][class*="body"] > div[class*="scroller"] {
+    background-color: var(--background-primary)
+}
+
+[class*="footer"] > [class*="quickMessage"] {
+    background-color: var(--background-primary)
+}
+
+div[class^="topSectionPlaying"] > header[class^="header"] {
+    background-color: var(--background-secondary);
+}
+
+d
 
 /** Credit to AlexFlipnote#0001 */
 
