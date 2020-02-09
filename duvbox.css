@@ -4,15 +4,6 @@
     Made by CircuitRCAY (Circuit#2816)
 */
 
-/** Montserrat, main font */
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-::placeholder, body, button, input, select, textarea {
-    font-family: "Montserrat", sans-serif;
-}
-
-/** End Montserrat */
-
 /* Iosevka, codeblock font */
 
 @import url("https://typeof.net/Iosevka/fonts.css");
@@ -96,6 +87,7 @@ div[class^="panels"] > div[class^="container"] > div[class^="nameTag"] > * {
     color: var(--text-normal);
 }
 
+
 div[class^="size14"] {
     color: var(--text-normal);
 }
@@ -116,8 +108,12 @@ div[class^="uploadModal"] > div[class^="inner"], div[class^="inner"] > div[class
     background-color: var(--background-primary);
 }
 
-[class^="username"]:not([style]){
+[class^="usernameContainer"]:not([style]){
     color: var(--text-normal)
+}
+
+div[class^="username"] {
+    background-color: inherit;
 }
 
 span[class^="wrapperHover"][role="button"] {
@@ -127,6 +123,8 @@ span[class^="wrapperHover"][role="button"] {
 [class^="autocompleteInner"] {
     background-color: var(--background-secondary)
 }
+
+
 
 a[class^="wrapper"] {
     color: var(--text-normal)
@@ -211,13 +209,28 @@ div[class^="tabBody"] {
     background-color: var(--background-primary);
 }
 
-div[class^="flex"] > div[class^="topSectionNormal"] > div[class^="header"] > div[class^="headerInfo"] {
+div[class^="topSectionNormal"] > header > div[class^="headerInfo"]{
+    background-color: var(--background-tertiary);
+}
+
+div[class^="headerTextNormal"][class*="headerText"][class*="small"][class*="marginBottom8"][class*="weightBold"] {
+    color: var(--text-normal);
     background-color: var(--background-secondary);
+    background: transparent !important;
+}
+
+div[class*="details"][class*="ellipsis"][class*="textRow"] {
+    color: var(--text-normal)
+}
+
+div[class*="timestamp"] {
+    color: var(--text-normal)
 }
 
 section[class^="section"] {
     background-color: var(--background-secondary);
 }
+
 
 /** Credit to AlexFlipnote#0001 */
 
