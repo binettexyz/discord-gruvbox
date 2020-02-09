@@ -210,7 +210,19 @@ div[class^="tabBody"] {
 }
 
 div[class^="topSectionNormal"] > header > div[class^="headerInfo"]{
-    background-color: var(--background-tertiary);
+    background-color: inherit;
+}
+
+div[class*="nameNormal"][class*="ellipsis"][class*="textRow"][class*="weightSemiBold"] > a {
+    color: var(--text-normal)
+}
+
+div[class*="detailsWrap"][class*="textRow"] > span > a {
+    color: var(--text-normal);
+}
+
+div[class*="state"][class*="ellipsis"][class*="textRow"] > span > a {
+    color: var(--text-normal);
 }
 
 div[class^="headerTextNormal"][class*="headerText"][class*="small"][class*="marginBottom8"][class*="weightBold"] {
