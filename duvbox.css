@@ -4,9 +4,25 @@
     Made by CircuitRCAY (Circuit#2816)
 */
 
-/** Import plugins from this line below. */
+/** Montserrat, main font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-/** End plugin section */
+::placeholder, body, button, input, select, textarea {
+    font-family: "Montserrat", sans-serif;
+}
+
+/** End Montserrat */
+
+/* Iosevka, codeblock font */
+
+@import url("https://typeof.net/Iosevka/fonts.css");
+
+code {
+    font-family: "Iosevka Web", monospace;
+    font-weight: 600;
+}
+
+/** End Iosevka */
 
 .theme-dark {
     --background-primary: #282828;
@@ -16,8 +32,10 @@
     --text-normal: #ebdbb2;
     --text-muted: #bdae93;
     --text-link: #458588;
-    --interactive-normal: #d5c4a1;
-    --interactive-muted: #a89984;
+    --header-primary: #ebdbb2;
+    --header-secondary: #bdae93;
+    --interactive-normal: #ebdbb2;
+    --interactive-hover: #bdae93;
     --interactive-active: #fbf1c7;
 }
 
@@ -29,8 +47,11 @@
     --text-normal: #3c3836;
     --text-muted: #504945;
     --text-link: #076678;
+    --header-primary: #3c3836;
+    --header-secondary: #504945;
     --interactive-normal: #665c54;
     --interactive-muted: #928374;
+    --interactive-hover: #504945;
     --interactive-active: #7c6f64;
 }
 
@@ -127,7 +148,7 @@ div[class^="text"] {
     color: var(--text-normal)
 }
 
-[class^="item"] {
+div[class^="side"] > div[class^="item"] {
     background-color: var(--background-secondary)
 }
 
@@ -182,7 +203,21 @@ div[class^="topSectionPlaying"] > header[class^="header"] {
     background-color: var(--background-secondary);
 }
 
-d
+header[class^="title"] {
+    color: var(--text-normal)
+}
+
+div[class^="tabBody"] {
+    background-color: var(--background-primary);
+}
+
+div[class^="flex"] > div[class^="topSectionNormal"] > div[class^="header"] > div[class^="headerInfo"] {
+    background-color: var(--background-secondary);
+}
+
+section[class^="section"] {
+    background-color: var(--background-secondary);
+}
 
 /** Credit to AlexFlipnote#0001 */
 
