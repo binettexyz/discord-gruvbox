@@ -23,8 +23,10 @@ code {
     --text-normal: #ebdbb2;
     --text-muted: #bdae93;
     --text-link: #458588;
+    --background-floating: #3c3836;
     --header-primary: #ebdbb2;
     --header-secondary: #bdae93;
+    --header-spotify: #b8bb26;
     --interactive-normal: #ebdbb2;
     --interactive-hover: #bdae93;
     --interactive-active: #fbf1c7;
@@ -40,6 +42,8 @@ code {
     --text-link: #076678;
     --header-primary: #3c3836;
     --header-secondary: #504945;
+    --header-spotify: #98971a;
+    --background-floating: #ebdbb2;
     --interactive-normal: #665c54;
     --interactive-muted: #928374;
     --interactive-hover: #504945;
@@ -123,7 +127,6 @@ span[class^="wrapperHover"][role="button"] {
 [class^="autocompleteInner"] {
     background-color: var(--background-secondary)
 }
-
 
 
 a[class^="wrapper"] {
@@ -211,6 +214,14 @@ div[class^="tabBody"] {
 
 div[class^="topSectionNormal"] > header > div[class^="headerInfo"]{
     background-color: inherit;
+}
+
+div[class^="topSectionSpotify"] > header > div[class^="headerInfo"]{
+    background-color: inherit;
+}
+
+div[class^="topSectionSpotify"] {
+    background-color: var(--header-spotify);
 }
 
 div[class*="nameNormal"][class*="ellipsis"][class*="textRow"][class*="weightSemiBold"] > a {
