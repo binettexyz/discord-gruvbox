@@ -254,6 +254,17 @@ section[class^="section"] {
     background-color: var(--background-secondary);
 }
 
+div[class*="container"] > div[class*="contentWrapper"] {
+    background-color: var(--background-secondary);
+}
+
+div[class*="selectorSelected"][class*="selector"] {
+    background-color: var(--background-primary);
+}
+
+div[class*="infoBar"] {
+    background-color: var(--background-tertiary);
+}
 
 /** Credit to AlexFlipnote#0001 */
 
