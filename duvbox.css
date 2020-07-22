@@ -78,8 +78,13 @@ div[class*="newMessagesBar"] {
     background-color: var(--background-secondary);
 }
 
-/* Mentions (channel, user, etc) */
+/* Mentions (channel, user) */
 span[class*="mention"][class*="interactive"] {
+    color: var(--text-link);
+}
+
+/* Mentions (role) */
+span[class*="mention"] {
     color: var(--text-link);
 }
 
@@ -286,8 +291,26 @@ div[class*="container"] > div[class*="contentWrapper"] {
 }
 
 div[class*="selectorSelected"][class*="selector"] {
-    background-color: var(--background-primary);
+    background-color: var(--background-tertiary);
 }
+
+div[class*="selectorSelected"][class*="selector"] > * > div[class*="marginLeft"] {
+    color: var(--text-normal)
+}
+
+div[class*="selectorSelected"][class*="selector"] > * > div[class*="colorStandard"] {
+    color: var(--text-muted);
+}
+
+[class*="selector"] > * > div[class*="marginLeft"] {
+    color: var(--text-normal)
+}
+
+[class*="selector"] > * > div[class*="colorStandard"] {
+    color: var(--text-muted);
+}
+
+
 
 div[class*="infoBar"] {
     background-color: var(--background-tertiary);
@@ -327,4 +350,47 @@ div[class*="resultsGroup"] > div[class*="option"]::after {
 
 div[class*="resultsGroup"] > div[class*="option"]:hover {
     background-color: var(--background-primary);
+}
+
+/** Channel topic **/
+div[class*="layerContainer"] > div[class*="layer"] > div[class*="focusLock"] > div[class*="modal"] > div[class*="content"] {
+    background-color: var(--background-secondary);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/** Playing statuses */
+* > div[class*="activityText"] {
+    color: var(--text-muted);
+}
+
+* > svg {
+    color: var(--interactive-hover)
+}
+
+/** Header fixes */
+* > span[class*="activityName"] {
+    color: var(--text-normal)
+}
+
+div[class*="activityUserPopout"] > h3[class*="headerTextNormal"][class*="headerText"] {
+   color: var(--text-normal);
+}
+
+/** Role names */
+div[class*="roleName"] {
+    color: var(--text-normal);
+}
+
+/** That discord icon on the top left */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+    background-color: var(--background-primary);
+}
+.wrapper-1BJsBx .childWrapper-anI2G9 {
+    background-color: var(--background-primary);
+}
+
+/** and the pill beside it */
+div[class*="pill"] > span[class*="item"] {
+    background-color: var(--background-primary)
 }
