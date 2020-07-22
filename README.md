@@ -31,6 +31,10 @@ Use the relevant installation guides for your modding platform.
 
 **Sorry if you're in the screenshot, I cannot edit it at this time.*
 
+## Known Issues
+On the Add Guild modal, Discord forces light theme even on dark theme.
+![Example](https://cdn.discordapp.com/attachments/538759280497786890/735338649650069524/unknown.png)
+
 
 ## License
 This project is licensed under the MIT License.
