@@ -1,4 +1,4 @@
-[![The Motherboard](https://discordapp.com/api/guilds/496913442830286848/embed.png?style=banner2)](https://discord.gg/ssdp3sN)
+[![The Motherboard](https://discordapp.com/api/guilds/589404444534243352/embed.png?style=banner2)](https://discord.gg/ssdp3sN)
 
 # Duvbox
 This is a theme, based on the [Vim theme](https://github.com/morhetz/gruvbox), named Gruvbox.
