@@ -484,3 +484,15 @@ div[class*="flex"][class*="justifyStart"] > button[class*="copyButton"] {
 div[class*="flex"][class*="vertical"][class*="directionColumn"] > div[class*="body"] {
     background-color: var(--background-secondary);
 }
+
+/* Fix Invites */
+div[class*="customScroller"] > div[class*="listContent"] > div[class*="headerSection"] {
+    background-color: var(--background-primary);
+}
+
+div[class*="flexChild"] > h4[class*="title"] {
+    color: var(--text-muted);
+}
+div[class*="flexChild"] > div[class*="text"] {
+    color: var(--text-muted);
+}
