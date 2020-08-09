@@ -1,3 +1,4 @@
+//META{"name":"Duvbox","description":"A Discord theme based on Gruvbox, a Vim theme","author":"CircuitRCAY","version":"1.2.0"}*//
 /**
     Duvbox - adapted for Discord
     
@@ -77,6 +78,19 @@ div[class*="wrapper"][class*="fixClipping"]{
 div[class*="newMessagesBar"] {
     background-color: var(--background-secondary);
 }
+
+/*Hide the action bar nametag and status */
+[class*='nameTag-'] {
+    display:none;
+}
+/* Center buttons in the panels container */
+div[class*="sidebar"] > [class*='panels-'] [class*='container-']{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+
+/* Credit to craftxbox */
 
 /* Mentions (channel, user) */
 span[class*="mention"][class*="interactive"] {
@@ -460,4 +474,13 @@ div[class*="categoryItem"][class*="selected"] > div[class*="itemInner"] {
 }
 div[class*="categoryItem"][class*="selected"] > div[class*="itemInner"] > * {
     color: var(--text-normal)
+}
+
+/* Support new integrations menu */
+div[class*="flex"][class*="justifyStart"] > button[class*="copyButton"] {
+    background-color: var(--background-tertiary);
+}
+
+div[class*="flex"][class*="vertical"][class*="directionColumn"] > div[class*="body"] {
+    background-color: var(--background-secondary);
 }
