@@ -79,10 +79,11 @@ div[class*="newMessagesBar"] {
     background-color: var(--background-secondary);
 }
 
-/*Hide the action bar nametag and status */
-[class*='nameTag-'] {
+/* Hide the action bar nametag and status */
+section > div[class*="container"] > [class*='nameTag-'] {
     display:none;
 }
+
 /* Center buttons in the panels container */
 div[class*="sidebar"] > [class*='panels-'] [class*='container-']{
     display:flex;
