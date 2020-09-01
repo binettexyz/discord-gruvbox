@@ -1,4 +1,4 @@
-//META{"name":"Duvbox","description":"A Discord theme based on Gruvbox, a Vim theme","author":"CircuitRCAY","version":"1.4.0"}*//
+//META{"name":"Duvbox","description":"A Discord theme based on Gruvbox, a Vim theme","author":"CircuitRCAY","version":"1.5.0"}*//
 /**
     Duvbox - adapted for Discord
     
@@ -11,8 +11,15 @@
 
 code {
     font-family: "Iosevka Web", monospace;
-    font-weight: 600;
+    font-weight: 400;
 }
+
+/* Iosevka on Powercord */
+pre > code {
+    font-family: "Iosevka Web", monospace;
+    font-weight: 400;
+}
+
 
 /** End Iosevka */
 
@@ -32,6 +39,7 @@ code {
     --interactive-normal: #ebdbb2;
     --interactive-hover: #bdae93;
     --interactive-active: #fbf1c7;
+    
 }
 
 .theme-light {
@@ -567,3 +575,137 @@ div[class*="state"] > span > a[class*="anchor"] {
 div[class*="tooltipContent"] {
     color: var(--text-normal);
 }
+
+/* Spotify in Powercord */
+div[class="powercord-spotify"] {
+    background-color: var(--background-secondary);
+}
+
+div[class="powercord-spotify hover"] {
+    background-color: var(--background-secondary);
+}
+
+/** Change Progress Bar colour */
+div[class="powercord-spotify"] > div[class*="spotify-seek"] > div[class*="spotify-seek-bar"] > * {
+    background-color: var(--header-spotify);
+}
+
+/** Change Progress Bar colour */
+div[class="powercord-spotify hover"] > div[class*="spotify-seek"] > div[class*="spotify-seek-bar"] > * {
+    background-color: var(--header-spotify);
+}
+
+/** Gruvbox (dark) Highlight.js theme. Ported from https://github.com/highlightjs/highlight.js/blob/master/src/styles/gruvbox-dark.css */
+.theme-dark .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #282828;
+}
+  
+.theme-dark .hljs,
+.hljs-subst {
+    color: #ebdbb2;
+}
+  
+/* Gruvbox Red */
+.theme-dark
+.hljs-deletion,
+.hljs-formula,
+.hljs-keyword,
+.hljs-link,
+.hljs-selector-tag {
+    color: #fb4934;
+}
+  
+/* Gruvbox Blue */
+.theme-dark
+.hljs-built_in,
+.hljs-emphasis,
+.hljs-name,
+.hljs-quote,
+.hljs-strong,
+.hljs-title,
+.hljs-variable {
+    color: #83a598;
+}
+  
+/* Gruvbox Yellow */
+.hljs-attr,
+.hljs-params,
+.hljs-template-tag,
+.hljs-type {
+    color: #fabd2f;
+}
+  
+/* Gruvbox Purple */
+.theme-dark
+.hljs-builtin-name,
+.hljs-doctag,
+.hljs-literal,
+.hljs-number {
+    color: #8f3f71;
+}
+  
+/* Gruvbox Orange */
+.theme-dark
+.hljs-code,
+.hljs-meta,
+.hljs-regexp,
+.hljs-selector-id,
+.hljs-template-variable {
+    color: #fe8019;
+}
+  
+/* Gruvbox Green */
+.theme-dark
+.hljs-addition,
+.hljs-meta-string,
+.hljs-section,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-string,
+.hljs-symbol {
+    color: #b8bb26;
+}
+  
+/* Gruvbox Aqua */
+.theme-dark
+.hljs-attribute,
+.hljs-bullet,
+.hljs-class,
+.hljs-function,
+.hljs-function .hljs-keyword,
+.hljs-meta-keyword,
+.hljs-selector-pseudo,
+.hljs-tag {
+    color: #8ec07c;
+}
+  
+/* Gruvbox Gray */
+.theme-dark,
+.hljs-comment {
+    color: #928374;
+}
+  
+/* Gruvbox Purple */
+.theme-dark
+.hljs-link_label,
+.hljs-literal,
+.hljs-number {
+    color: #d3869b;
+}
+  
+.theme-dark
+.hljs-comment,
+.hljs-emphasis {
+    font-style: italic;
+}
+  
+.theme-dark
+.hljs-section,
+.hljs-strong,
+.hljs-tag {
+    font-weight: bold;
+}
+
