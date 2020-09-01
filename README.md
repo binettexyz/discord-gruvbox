@@ -9,8 +9,6 @@ Use the relevant installation guides for your modding platform.
 * [BeautifulDiscord](https://github.com/DTinker/discord-resources/wiki/Installing-Modifications#beautifuldiscord)
     
 * [BetterDiscord](https://imgur.com/H7VyWea)
-    
-* [DiscordInjections](https://github.com/DiscordInjections/DiscordInjections/wiki/Theme-Tutorial)
 
 * [Powercord](https://github.com/CircuitCodes/Duvbox/wiki/Installing-For-Powercord)
 
