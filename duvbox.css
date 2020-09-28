@@ -576,6 +576,11 @@ div[class*="tooltipContent"] {
     color: var(--text-normal);
 }
 
+/* MessageBox fix */
+div[class*="markdown"] {
+    color: var(--text-normal);
+}
+
 /* Spotify in Powercord */
 div[class="powercord-spotify"] {
     background-color: var(--background-secondary);
