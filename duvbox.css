@@ -600,6 +600,14 @@ div[class="powercord-spotify hover"] > div[class*="spotify-seek"] > div[class*="
     background-color: var(--header-spotify);
 }
 
+/* BetterDiscord toasts */
+/* TODO: Fix shadows of toasts */
+div[class="bd-toast"] {
+    background: var(--background-floating);
+    color: var(--text-normal);
+}
+/* Sadly colors of other toasts(toast-info, toast-success, toast-warning, toast-error) can't be overridden */
+
 /** Gruvbox (dark) Highlight.js theme. Ported from https://github.com/highlightjs/highlight.js/blob/master/src/styles/gruvbox-dark.css */
 .theme-dark .hljs {
     display: block;
