@@ -131,6 +131,10 @@ div[class^="panels"] > div[class^="container"] {
     background-color: var(--background-secondary);
 }
 
+div[class^="wrapper"] > div[class^="container"] {
+    background-color: var(--background-tertiary);
+}
+
 section[class^="panels"] > div[class^="container"] > div[class^="nameTag"] > * {
     color: var(--text-normal);
 }
