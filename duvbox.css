@@ -10,13 +10,13 @@
 @import url("https://cdn.jsdelivr.net/npm/@typopro/web-iosevka@3.7.5/TypoPRO-Iosevka.css");
 
 code {
-    font-family: "Iosevka Web", monospace;
+    font-family: "TypoPRO Iosevka Term", monospace;
     font-weight: 400;
 }
 
 /* Iosevka on Powercord */
 pre > code {
-    font-family: "Iosevka Web", monospace;
+    font-family: "TypoPRO Iosevka Term", monospace;
     font-weight: 400;
 }
 
