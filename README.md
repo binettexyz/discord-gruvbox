@@ -1,7 +1,7 @@
 [![The Motherboard](https://discordapp.com/api/guilds/589404444534243352/embed.png?style=banner2)](https://discord.gg/ssdp3sN)
 
 # Duvbox
-This is a theme, based on the [Vim theme](https://github.com/morhetz/gruvbox), named Gruvbox.
+Duvbox, a portmanteau of "discord" and "gruvbox", is a theme, based on the [Vim theme](https://github.com/morhetz/gruvbox), named Gruvbox.
 
 ## Installation
 Use the relevant installation guides for your modding platform.
@@ -10,7 +10,7 @@ Use the relevant installation guides for your modding platform.
     
 * [BetterDiscord](https://imgur.com/H7VyWea)
 
-* [Powercord](https://github.com/CircuitCodes/Duvbox/wiki/Installing-For-Powercord)
+* [Powercord](https://github.com/CircuitRCAY/Duvbox/wiki/Installing-For-Powercord)
 
 ## Screenshots
 ### Dark
@@ -35,7 +35,7 @@ Use the relevant installation guides for your modding platform.
 The official support channel is the #duvbox-support channel in The Motherboard. Scroll up and click the invite.
 
 ### Disclaimer
-**DO NOT GO TO DISCORD SUPPORT FOR DUVBOX SUPPORT**
+Please, **do not go** to Discord to get support for Duvbox. They will not care fot 
 
 ## Known Issues
 - On the Add Guild modal, Discord forces light theme even on dark theme.
