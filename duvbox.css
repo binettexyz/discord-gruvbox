@@ -1,4 +1,4 @@
-//META{"name":"Duvbox","description":"A Discord theme based on Gruvbox, a Vim theme","author":"CircuitRCAY","version":"1.5.0"}*//
+//META{"name":"Duvbox","description":"A Discord theme based on Gruvbox, a Vim theme","author":"CircuitRCAY","version":"1.6.0"}*//
 /**
     Duvbox - adapted for Discord
     
@@ -71,7 +71,7 @@ pre > code {
     width:5px !important;
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--background-secondary) !important;
+    background: var(--background-accent) !important;
     width:5px !important;
     border:none !important;
     border-radius: 0px !important;
@@ -79,12 +79,12 @@ pre > code {
 
 /* Guild menu (discord forces light theme) */
 div[class*="wrapper"][class*="fixClipping"]{
-    background-color: var(--background-secondary);
+    background-color: var(--background-accent);
 }
 
 /* New Messages Bar */
 div[class*="newMessagesBar"] {
-    background-color: var(--background-secondary);
+    background-color: var(--background-accent);
 }
 
 /* Hide the action bar nametag and status */
@@ -611,6 +611,74 @@ div[class="bd-toast"] {
     color: var(--text-normal);
 }
 /* Sadly colors of other toasts(toast-info, toast-success, toast-warning, toast-error) can't be overridden */
+
+/* Fix a.k.a [nickname] */
+div[class*="nicknames"][class*="overflow"] > div[class*="tooltip"] {
+    background-color: var(--background-primary);
+}
+
+/* Fix slash commands */
+* > div[class*="categorySection"] > div[class*="wrapper"] {
+    background-color: var(--background-secondary);
+}
+
+div[class*="itemWrapper"] > div[class*="base"][class*="selectable"][class*="selected"] {
+    background-color: var(--background-tertiary);
+}
+
+div[class*="usageWrapper"] > div[class*="colorHeaderPrimary"] {
+    background-color: var(--background-accent);
+    color: var(--text-muted);
+}
+
+/* Fix emoji picker */
+div[class*="emojiPicker"] > div[class*="inspector"] {
+    background-color: var(--background-tertiary);
+}
+
+/* Finally fix server info */
+div[class*="container"] > * > * > div[class*="content"] {
+    background-color: var(--background-secondary);
+    margin: 0;
+}
+
+div[class*="container"] > * > * > div[class*="flex"][class*="horizontalReverse"] > button {
+    background-color: var(--background-accent);
+}
+
+div[class*="container"] > * > * > div[class*="flex"][class*="horizontalReverse"] > button {
+    background-color: var(--background-accent);
+}
+
+div[class*="container"] > * > * > div > div[class*="content"][class*="scrollerBase"] {
+    background-color: var(--background-secondary);
+}
+
+div[class*="container"] > * > * > div > div[class*="content"][class*="scrollerBase"] > form[class*="inputForm"] > div {
+    background-color: var(--background-secondary);
+}
+
+/* Fix private channel settings on an empty channel */
+div[class*="contents"] > div[class*="flex"] > div[class*="size16"] {
+    background-color: var(--background-primary);
+}
+
+div[class*="contents"] > div[class*="flex"] {
+    background-color: var(--background-primary);
+}
+
+div[class*="members"] > button[class*="role"][class*="button"] > div[class*="contents"] > div[class*="role"] {
+    background-color: var(--background-secondary);
+}
+
+/* Support new role list */
+div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWidth"] > div[class*="header"] {
+    background-color: var(--background-primary);
+}
+
+div[class*="contentContainer"] > div[class*="scroller"] > div[class*="contentWidth"] > div[class*="header"] > div[class*="tabBar"] > div[class*="item"] {
+    background-color: var(--background-secondary);
+}
 
 /** Gruvbox (dark) Highlight.js theme. Ported from https://github.com/highlightjs/highlight.js/blob/master/src/styles/gruvbox-dark.css */
 .theme-dark .hljs {
