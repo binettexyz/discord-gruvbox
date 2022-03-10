@@ -35,7 +35,8 @@ Use the relevant installation guides for your modding platform.
 The official support channel is the #duvbox-support channel in The Motherboard. Scroll up and click the invite.
 
 ### Disclaimer
-Please, **do not go** to Discord to get support for Duvbox. They will not care fot 
+Please, **do not go** to Discord to get support for Duvbox.
+Duvbox relies on technology that is against the Discord *Terms of Service* (client mods such as Powercord & BetterDiscord) and it is likely your account will be terminated.
 
 ## Known Issues
 - On the Add Guild modal, Discord forces light theme even on dark theme.
