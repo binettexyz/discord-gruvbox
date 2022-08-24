@@ -7,16 +7,15 @@
 
 /* Iosevka, codeblock font */
 
-@import url("https://cdn.jsdelivr.net/npm/@typopro/web-iosevka@3.7.5/TypoPRO-Iosevka.css");
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
 
 code {
-    font-family: "TypoPRO Iosevka Term", monospace;
-    font-weight: 400;
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
 }
 
-/* Iosevka on Powercord */
 pre > code {
-    font-family: "TypoPRO Iosevka Term", monospace;
+    font-family: "Fira Code", monospace;
     font-weight: 400;
 }
 
